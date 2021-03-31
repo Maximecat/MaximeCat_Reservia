@@ -11,7 +11,7 @@ body
 
 .bloc_page
 {
-    margin: 25px;
+    margin: auto;
     margin-top: 30px;
     margin-bottom: 40px;
     margin-left: 40px;
@@ -77,7 +77,7 @@ font-weight: bold;
 .title_top
 {
     padding-top: 25px;
-    line-height: 0.6em;
+    /* line-height: 0.6em; */
     font-size: 90%;
 }
 
@@ -395,6 +395,488 @@ font-weight: bold;
 {
   display: flex;
   margin-top: 4px;
+  margin-bottom: 30px;
   font-style: normal;
   font-family: "Raleway";
+}
+
+/*------- ACCOMODATION BOX -------*/
+
+/*------- TITLE/TEXT -------*/
+.accom_title
+{
+  margin-bottom: 30px;
+  margin-left: -50px;
+}
+
+.first_title
+{
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+.price_title
+{
+    font-size: 15px;
+    font-weight: normal;
+    padding-left: 10px;
+    margin-bottom: -5px;
+}
+
+.href_title_cards
+{
+    text-decoration: none;
+    color: black;
+}
+
+.see-more a
+{
+    font-size: 20px;
+    margin-left: -50px;
+    text-decoration: none;
+    color: black;
+}
+
+/*------- ACCOM BOX -------*/
+
+.accom_cards 
+{
+  border: 1px solid rgba(255, 255, 255, 0);
+  box-shadow: 0px 0px 13px #d1d1d1;
+  padding-right: -20px;
+  margin-left: -60px;
+  inline-size: 210px;
+  line-height: 0.5em;
+  padding: 3px;
+  border-radius: 1em;
+  margin-bottom: 30px;
+}
+
+.accom_cards:hover
+{
+    background-color: #DEEBFF;
+    transition: 0.5s;
+}
+
+.accom_part
+{
+  border: 1px solid white;
+  background-color: #F2F2F2;
+  border-radius: 1.5em;
+  padding-top: 20px;
+  padding-left: 100px;
+  padding-bottom: 20px;
+  width: 40%;
+  margin: 30px;
+}
+
+.accom_picture
+{
+    border-radius: 1em;
+    height: 100px;
+    width: 210px;
+    border-bottom-left-radius: 0em;
+    border-bottom-right-radius: 0em;
+}
+
+/*------- STARS RATED -------*/
+
+.accom_part ul
+{
+   margin-bottom: 5px;
+}
+
+.accom_part li
+{
+    list-style-type: none;
+    display: flex;
+}
+
+.note-article
+{
+    display: flex;
+    flex-direction: row;
+    margin-left: -30px;
+}
+
+.blue_star
+{
+    color: #0065FC;
+    font-size: 12px;
+}
+
+.grey_star
+{
+    color: #bebebed7;
+    font-size: 12px;
+}
+
+/*------- GRID -------*/
+
+.grid
+{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: space-around;
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    grid-gap: 15px;
+}
+
+
+/*------- MOST POPULAR -------*/
+
+.section_with_aside
+{
+    display: flex;
+}
+
+/*------- TOP TITLE -------*/
+
+.mp_title
+{
+    margin-top: 0px;
+}
+
+/*------- ICON CHART -------*/
+.chart-icon
+{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.align-icon-mp
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+/*------- MOST POPULAR CARDS/BOX -------*/
+
+.most_popular_part
+{
+    border: 1px solid white;
+    background-color: #F2F2F2;
+    border-radius: 1.5em;
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.accom_popular_cards
+{
+    box-shadow: 0px 0px 13px #d1d1d1;
+    background-color: #F2F2F2;
+    border-radius: 1.5em;
+    margin: 25px;
+    margin-top: 0px;
+    display: flex;
+}
+
+.accom_popular_cards:hover
+{
+    background-color: #DEEBFF;
+    transition: 0.5s; 
+}
+
+.href_title_cards
+{
+    text-decoration: none;
+    color: black;
+}
+
+/*------- MOST POPULAR IMG -------*/
+
+.accom_popular
+{
+    padding: 5px;
+    border-top-left-radius: 1.5em ;
+    border-bottom-left-radius: 1.5em;
+}
+
+/*------- MOST POPULAR TEXT CARDS -------*/
+
+.popular_title
+{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0px;
+    padding-left: 10px;
+}
+
+.first_title_popular
+{
+    font-size: 15px;
+    word-wrap: normal;
+    padding: 5px;
+    margin-right: 50px;
+}
+
+.price_title_popular
+{
+    font-size: 15px;
+    font-weight: normal;
+    padding: 5px;
+    margin-top: -10px;
+}
+
+/*------- STARS RATED -------*/
+
+.most_popular_part li
+{
+    list-style-type: none;
+}
+
+.popular_stars
+{
+    display: flex;
+    align-items: flex-start;
+}
+
+.note-article-popular
+{
+    margin-top: 0px;
+    display: flex;
+    padding-left: 5px;
+}
+
+/*------- ACTIVITY -------*/
+
+.activity
+{
+   margin-left: 30px;
+   margin-bottom: 120px;
+}
+
+/*------- ACTIVITY BOX -------*/
+
+.activity_part
+{
+    border: 1px solid white;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+.activity_cards1
+{
+    border-radius: 1.5em;
+    box-shadow: 0px 2px 12px #d1d1d1;
+    inline-size: 316px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+}
+
+.activity_cards2
+{
+    border-radius: 1.5em;
+    box-shadow: 0px 2px 12px #d1d1d1;
+    inline-size: 316px;
+    height: 260px;
+    margin-left: 15px;
+}
+
+.activity_cards3
+{
+    position: absolute;
+    border-radius: 1.5em;
+    top: 292px;
+    left: 318px;
+    box-shadow: 0px 2px 12px #d1d1d1;
+    inline-size: 316px;
+    height: 158px;
+    margin-left: 15px;
+}
+
+.activity_cards4
+{
+    border-radius: 1.5em;
+    box-shadow: 0px 2px 12px #d1d1d1;
+    inline-size: 315px;
+    height: 450px;
+    margin-left: 15px;
+}
+
+.activity_cards5
+{
+    border-radius: 1.5em;
+    box-shadow: 0px 2px 12px #d1d1d1;
+    inline-size: 316px;
+    height: 218px;
+    margin-left: 18px;
+}
+
+.activity_cards6
+{
+    position: absolute;
+    top: 232px;
+    left: 985px;
+    border-radius: 1.5em;
+    box-shadow: 0px 2px 12px #d1d1d1;
+    inline-size: 316px;
+    height: 218px;
+    margin-left: 10px;
+}
+
+/*------- ACTIVITY TITLE -------*/
+
+.activity_top_title
+{
+    font-weight: bold;
+    font-family: "Raleway";
+}
+
+.activity_title
+{
+    font-size: 15px;
+    font-family: "Raleway";
+    padding-left: 15px;
+}
+
+/*------- ACTIVITY IMG -------*/
+
+.activity_picture
+{
+    border-top-left-radius: 1.5em;
+    border-top-right-radius: 1.5em;
+}
+/*------- ACTIVITY :HOVER -------*/
+
+.href_cards
+{
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    border-radius: 1.5em;
+    height: 500px;
+}
+
+.href_cards:hover
+{
+    background-color: #DEEBFF;
+    transition: 0.5s; 
+    border-radius: 1.5em;
+}
+
+.href_cards2
+{
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    border-radius: 1.5em;
+    display: flex;
+    flex-direction: column;
+    height: 260px;
+}
+
+.href_cards2:hover
+{
+    background-color: #DEEBFF;
+    transition: 0.5s; 
+    border-radius: 1.5em;
+}
+
+.href_cards3
+{
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    border-radius: 1.5em;
+    display: flex;
+    flex-direction: column;
+    height: 157px;
+}
+
+.href_cards3:hover
+{
+    background-color: #DEEBFF;
+    transition: 0.5s; 
+    border-radius: 1.5em;
+}
+
+.href_cards4
+{
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    border-radius: 1.5em;
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+}
+
+.href_cards4:hover
+{
+    background-color: #DEEBFF;
+    transition: 0.5s; 
+    border-radius: 1.5em;
+}
+
+.href_cards5
+{
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    border-radius: 1.5em;
+    display: flex;
+    flex-direction: column;
+    height: 218px;
+}
+
+.href_cards5:hover
+{
+    background-color: #DEEBFF;
+    transition: 0.5s; 
+    border-radius: 1.5em;
+}
+
+.href_cards6
+{
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    border-radius: 1.5em;
+    display: flex;
+    flex-direction: column;
+    height: 218px;
+}
+
+.href_cards6:hover
+{
+    background-color: #DEEBFF;
+    transition: 0.5s; 
+    border-radius: 1.5em;
+}
+
+/*------- FOOTER -------*/
+
+.page_footer
+{
+    display: flex;
+    margin-left: 30px;
+}
+
+.page_footer h2
+{
+    font-size: 20px;
+    font-style: bolder;
+}
+
+.page_footer h3
+{
+    font-size: 15px;
+}
+
+.footer_nav
+{
+    margin-right: 240px;
+}
+
+.option_footer
+{
+    text-decoration: none;
+    color: black;
+    font-weight: normal;
 }
