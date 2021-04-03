@@ -74,8 +74,9 @@ font-weight: bold;
 
 .title_top
 {
-    padding-top: 25px;
-    /* line-height: 0.6em; */
+    padding-top: 20px;
+    margin-bottom: 20px;
+    line-height: 0.6em;
     font-size: 90%;
 }
 
@@ -151,6 +152,7 @@ font-weight: bold;
     flex-direction: row;
     align-items: center;
     margin-top: 10px;
+    margin-left: 15px;
 }
 
 /*------- TITLE -------*/
@@ -159,7 +161,7 @@ font-weight: bold;
 {
     display: flex;
     flex-direction: row;
-    margin-right: 30px;
+    margin-right: 20px;
     margin-bottom: 35px;
 }
 
@@ -386,6 +388,7 @@ font-weight: bold;
 .information_bubble
 {
   margin-top: 12px;
+  margin-left: 5px;
   display: flex;
 }
 
@@ -421,7 +424,6 @@ font-weight: bold;
 {
   margin-bottom: 20px;
   display: flex;
-  padding-left: 20px;
 }
 
 .first_title
@@ -446,10 +448,9 @@ font-weight: bold;
 
 .see-more a
 {
-    font-size: 20px;
+    font-size: 18px;
     text-decoration: none;
     color: black;
-    padding-left: 25px;
 }
 
 /*------- ACCOM BOX -------*/
@@ -475,7 +476,7 @@ font-weight: bold;
   padding: 3px;
   border-radius: 1em;
   margin-bottom: 20px;
-  margin-right: 20px;
+  margin-right: 25px;
 }
 
 .accom_cards:hover
@@ -549,7 +550,9 @@ font-weight: bold;
 
 .mp_title
 {
-    margin-top: 0px;
+    margin-top: 3px;
+    margin-left: 15px;
+    padding-top: 5px;
 }
 
 /*------- ICON CHART -------*/
@@ -557,6 +560,7 @@ font-weight: bold;
 {
     font-size: 25px;
     font-weight: bold;
+    padding: 10px;
 }
 
 .align-icon-mp
@@ -585,10 +589,11 @@ font-weight: bold;
     box-shadow: 0px 0px 13px #d1d1d1;
     background-color: #F2F2F2;
     border-radius: 1.5em;
-    margin: 25px;
+    margin: 20px;
     margin-top: 0px;
+    margin-bottom: 23px;
     display: flex;
-    width: max-content;
+    width: 22em;
 }
 
 .accom_popular_cards:hover
@@ -626,14 +631,15 @@ font-weight: bold;
 .first_title_popular
 {
     font-size: 15px;
-    word-wrap: normal;
-    padding: 0px;
+    word-wrap: break-word;
+    padding-left: 5px;
+    padding-top: 2px;
     margin-right: 50px;
 }
 
 .price_title_popular
 {
-    font-size: 15px;
+    font-size: 13px;
     font-weight: normal;
     padding: 5px;
     margin-top: -10px;
@@ -663,8 +669,9 @@ font-weight: bold;
 
 .activity
 {
-   margin-left: 30px;
-   margin-bottom: 120px;
+   margin-left: 0px;
+   margin-top: 50px;
+   margin-bottom: 100px;
 }
 
 /*------- ACTIVITY BOX -------*/
@@ -681,9 +688,10 @@ font-weight: bold;
     border-radius: 1.5em;
     box-shadow: 0px 2px 12px #d1d1d1;
     inline-size: 316px;
-    height: 450px;
+    height: 390px;
     display: flex;
     flex-direction: column;
+    margin-right: 5px;
 }
 
 .activity_cards2
@@ -691,20 +699,20 @@ font-weight: bold;
     border-radius: 1.5em;
     box-shadow: 0px 2px 12px #d1d1d1;
     inline-size: 316px;
-    height: 260px;
-    margin-left: 15px;
+    height: 220px;
+    margin-left: 25px;
 }
 
 .activity_cards3
 {
     position: absolute;
     border-radius: 1.5em;
-    top: 292px;
-    left: 318px;
+    top: 250px;
+    left: 280px;
     box-shadow: 0px 2px 12px #d1d1d1;
-    inline-size: 316px;
-    height: 158px;
-    margin-left: 15px;
+    inline-size: 270px;
+    height: 140px;
+    margin-left: 20px;
 }
 
 .activity_cards4
@@ -712,8 +720,8 @@ font-weight: bold;
     border-radius: 1.5em;
     box-shadow: 0px 2px 12px #d1d1d1;
     inline-size: 315px;
-    height: 450px;
-    margin-left: 15px;
+    height: 390px;
+    margin-left: 25px;
 }
 
 .activity_cards5
@@ -721,20 +729,21 @@ font-weight: bold;
     border-radius: 1.5em;
     box-shadow: 0px 2px 12px #d1d1d1;
     inline-size: 316px;
-    height: 218px;
-    margin-left: 18px;
+    height: 185px;
+    margin-left: 28px;
 }
 
 .activity_cards6
 {
     position: absolute;
-    top: 232px;
-    left: 985px;
+    top: 194px;
+    left: 880px;
     border-radius: 1.5em;
     box-shadow: 0px 2px 12px #d1d1d1;
-    inline-size: 316px;
-    height: 218px;
-    margin-left: 10px;
+    inline-size: 270px;
+    height: 185px;
+    margin-left: 15px;
+    margin-top: 10px;
 }
 
 /*------- ACTIVITY TITLE -------*/
@@ -743,6 +752,7 @@ font-weight: bold;
 {
     font-weight: bold;
     font-family: "Raleway";
+    font-size: 22px;
 }
 
 .activity_title
@@ -756,8 +766,9 @@ font-weight: bold;
 
 .activity_picture
 {
-    border-top-left-radius: 1.5em;
-    border-top-right-radius: 1.5em;
+    border-top-left-radius: 1.2em;
+    border-top-right-radius: 1.2em;
+    inline-size: 270px;
 }
 /*------- ACTIVITY :HOVER -------*/
 
@@ -785,7 +796,7 @@ font-weight: bold;
     border-radius: 1.5em;
     display: flex;
     flex-direction: column;
-    height: 260px;
+    height: 220px;
 }
 
 .href_cards2:hover
@@ -803,7 +814,7 @@ font-weight: bold;
     border-radius: 1.5em;
     display: flex;
     flex-direction: column;
-    height: 157px;
+    height: 140px;
 }
 
 .href_cards3:hover
@@ -821,7 +832,7 @@ font-weight: bold;
     border-radius: 1.5em;
     display: flex;
     flex-direction: column;
-    height: 450px;
+    height: 390px;
 }
 
 .href_cards4:hover
@@ -839,7 +850,7 @@ font-weight: bold;
     border-radius: 1.5em;
     display: flex;
     flex-direction: column;
-    height: 218px;
+    height: 185px;
 }
 
 .href_cards5:hover
@@ -857,7 +868,7 @@ font-weight: bold;
     border-radius: 1.5em;
     display: flex;
     flex-direction: column;
-    height: 218px;
+    height: 185px;
 }
 
 .href_cards6:hover
