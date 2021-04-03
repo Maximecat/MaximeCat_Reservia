@@ -100,7 +100,7 @@ font-weight: bold;
     border-top-left-radius: 1em;
     border-right: transparent;
     block-size: 2.5em;
-    inline-size: 323px;
+    inline-size: max-content;
 }
 
 .map-icon
@@ -882,7 +882,9 @@ font-weight: bold;
 .page_footer
 {
     display: flex;
+    position: absolute;
     justify-content: center;
+    width: 100%;
     border: 1px solid #F2F2F2;
     background-color: #F2F2F2;
     margin: -9px;
@@ -892,11 +894,13 @@ font-weight: bold;
 {
     font-size: 18px;
     font-style: bolder;
+    width: max-content;
 }
 
 .page_footer h3
 {
     font-size: 15px;
+    width: max-content;
 }
 
 .footer_nav1
