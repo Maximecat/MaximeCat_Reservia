@@ -469,6 +469,7 @@ font-weight: bold;
 .accom_cards 
 {
   border: 1px solid rgba(255, 255, 255, 0);
+  background-color: white;
   box-shadow: 0px 0px 13px #d1d1d1;
   inline-size: 190px;
   line-height: 0.5em;
@@ -586,7 +587,7 @@ font-weight: bold;
 .accom_popular_cards
 {
     box-shadow: 0px 0px 13px #d1d1d1;
-    background-color: #F2F2F2;
+    background-color: white;
     border-radius: 1.5em;
     margin: 20px;
     margin-top: 0px;
