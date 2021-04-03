@@ -11,9 +11,8 @@ body
 
 .bloc_page
 {  
-    width:100%;
-    margin:auto;
     width: 950px;
+    margin: auto;
 }
 
                               /*------- SECTION 1 -------*/
@@ -671,7 +670,7 @@ font-weight: bold;
 {
    margin-left: 0px;
    margin-top: 50px;
-   margin-bottom: 100px;
+   margin-bottom: 50px;
 }
 
 /*------- ACTIVITY BOX -------*/
@@ -736,12 +735,12 @@ font-weight: bold;
 .activity_cards6
 {
     position: absolute;
-    top: 194px;
+    top: 192px;
     left: 880px;
     border-radius: 1.5em;
     box-shadow: 0px 2px 12px #d1d1d1;
     inline-size: 270px;
-    height: 185px;
+    height: 190px;
     margin-left: 15px;
     margin-top: 10px;
 }
@@ -759,7 +758,7 @@ font-weight: bold;
 {
     font-size: 15px;
     font-family: "Raleway";
-    padding-left: 15px;
+    padding-left: 20px;
 }
 
 /*------- ACTIVITY IMG -------*/
@@ -868,7 +867,7 @@ font-weight: bold;
     border-radius: 1.5em;
     display: flex;
     flex-direction: column;
-    height: 185px;
+    height: 190px;
 }
 
 .href_cards6:hover
@@ -883,14 +882,15 @@ font-weight: bold;
 .page_footer
 {
     display: flex;
-    padding-left: 30px;
-    border: 1px solid black;
+    justify-content: center;
+    border: 1px solid #F2F2F2;
     background-color: #F2F2F2;
+    margin: -9px;
 }
 
 .page_footer h2
 {
-    font-size: 20px;
+    font-size: 18px;
     font-style: bolder;
 }
 
@@ -899,10 +899,27 @@ font-weight: bold;
     font-size: 15px;
 }
 
-.footer_nav
+.footer_nav1
 {
-  width: 100%;
-  margin-bottom: 20px;
+    margin-left: -220px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-left: 150px;
+}
+
+.footer_nav2
+{
+    margin: 100px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-left: 80px;
+}
+
+.footer_nav3
+{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-left: 110px;
 }
 
 .option_footer
