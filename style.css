@@ -933,3 +933,248 @@ font-weight: bold;
     color: black;
     font-weight: normal;
 }
+
+@media screen and (max-device-width: 768px)
+{
+    .bloc_page
+    {
+       margin-left: 12px;
+    }
+
+    .topnav
+    {
+        width: 768px;
+        display: flex;
+        margin-right: -110px;
+        font-size: 15px;
+    }
+
+    .principal_title
+    {
+        font-size: 17px;
+    }
+
+    .secondary_title
+    {
+        font-size: 13px;
+    }
+
+    .search_box
+    {
+        block-size: 40px;
+        font-size: 15px;
+    }
+
+    .map-icon
+    {
+        margin-left: -2px;
+    }
+
+    .searchcountry
+    {
+        font-size: 12px;
+    }
+
+    .button
+    {
+        font-size: 12.5px;
+        width: 100px;
+        height: 40px;
+    }
+
+    .filters
+    {
+        
+    }
+
+    .filter_title
+    {
+        font-size: 17px;
+        margin-right: 10px;
+    }
+
+    .filter-item
+    {
+        margin-right: -10px;
+    }
+
+    .information_bubble
+    {
+        font-size: 14px;
+        margin-top: 0px;
+    }
+
+    .accom_part
+    {
+        margin-bottom: 10px;
+    }
+
+    .accom_title
+    {
+        font-size: 20px;
+    }
+
+    .see-more
+    {
+        font-size: 15px;
+    }
+
+    .section_with_aside
+    {
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+    }
+
+    .most_popular_part
+    {
+        width: 106%;
+        margin-left: 0px;
+        padding-bottom: 20px;
+    }
+
+    .mp_title
+    {
+        font-size: 22px;
+    }
+
+    .chart-icon
+    {
+        margin-right: 15px;
+    }
+
+    .accom_popular_cards
+    {
+        width: 91.5%;
+        margin-left: 28px;
+        margin-bottom: 15px;
+    }
+
+    .first_title_popular
+    {
+        font-size: 19px;
+    }
+
+    .price_title_popular
+    {
+        font-size: 17px;
+    }
+
+    .activity_top_title
+    {
+        margin-left: 15px;
+    }
+    .activity_part
+    {
+        display: flex;
+        margin: 5px;
+        height: 350px;
+    }
+
+    .activity_title
+    {
+        font-size: 13px;
+        text-align: start;
+    }
+
+    .activity_cards1
+    {
+        height: 144px;
+        width: 230px;
+        margin: 0px;
+        margin-left: -2px;
+    }
+
+    .activity_cards2
+    {
+        height: 145px;
+        width: 230px;
+        margin-left: 15px;
+    }
+
+    .href_cards2
+    {
+        height: 145px;
+    }
+
+    .activity_cards3
+    {
+        height: 140px;
+        width: 230px;
+        margin: 0px;
+        top: 160px;
+        left: 0;
+        margin-left: -2px;
+        
+    }
+
+    .activity_cards4
+    {
+        height: 145px;
+        width: 230px;
+        margin-left: 15px;
+    }
+
+    .href_cards4
+    {
+        height: 145px;
+    }
+
+    .activity_cards5
+    {
+        height: 141px;
+        width: 230px;
+        margin-left: -475px;
+        margin-top: 160px;
+    }
+
+    .href_cards5
+    {
+        height: 141px;
+    }
+
+    .activity_cards6
+    {
+        height: 142px;
+        width: 230px;
+        margin-left: -393px;
+        margin-top: -32px;
+    }
+
+    .href_cards6
+    {
+        height: 145px;
+    }
+    
+    .activity_picture
+    {
+        width: 230px;
+        height: 100px;
+    }
+
+    .page_footer
+    {
+        height: 200px;
+    }
+    .footer_nav1
+    {
+        margin-left: -185px;
+    }
+
+    .footer_nav2
+    {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .footer_nav3
+    {
+        margin-left: 0px;
+    }
+
+    .option_footer
+    {
+        font-size: 13px;
+    }
+
+}
