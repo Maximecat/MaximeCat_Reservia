@@ -10,12 +10,9 @@ body
 
 
 .bloc_page
-{
-    margin: 25px;
-    margin-top: 30px;
-    margin-bottom: 40px;
-    margin-left: 40px;
-    margin-right: 40px;
+{  
+    width: 950px;
+    margin: auto;
 }
 
                               /*------- SECTION 1 -------*/
@@ -33,9 +30,9 @@ body
 
 .topnav
 {
-   position: absolute;
-   right: 25px;
-   top: 20px;
+   float: right;
+   margin-top: 12px;
+   margin-right: -200px;
 }
 
 .topnav ul
@@ -47,7 +44,7 @@ body
 .topnav a
 {
     text-decoration: none;
-    padding: 20px;
+    padding: 15px;
     padding-top: 34px;
 }
 
@@ -76,7 +73,8 @@ font-weight: bold;
 
 .title_top
 {
-    padding-top: 25px;
+    padding-top: 20px;
+    margin-bottom: 20px;
     line-height: 0.6em;
     font-size: 90%;
 }
@@ -95,11 +93,22 @@ font-weight: bold;
     display: flex;
     flex-direction: row;
     align-items: center;
+    border: 1px solid #F2F2F2;
+    border-bottom-right-radius: 1em;
+    border-top-right-radius: 1em;
+    border-bottom-left-radius: 1em;
+    border-top-left-radius: 1em;
+    border-right: transparent;
+    block-size: 2.5em;
+    inline-size: max-content;
 }
 
 .map-icon
 {
-    margin: 10px;
+    background-color: #F2F2F2;
+    padding: 0.7rem 1.25rem;
+    border-radius: 1rem 0 0 1rem;
+    text-align: center;
 }
 
 .searchcountry
@@ -141,6 +150,8 @@ font-weight: bold;
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-top: 10px;
+    margin-left: 15px;
 }
 
 /*------- TITLE -------*/
@@ -149,7 +160,7 @@ font-weight: bold;
 {
     display: flex;
     flex-direction: row;
-    margin-right: 30px;
+    margin-right: 20px;
     margin-bottom: 35px;
 }
 
@@ -282,7 +293,8 @@ font-weight: bold;
     border-radius: 2.5em;
     inline-size: 11em;
     color: black;
-    background-color: #F2F2F2 solid;
+    background-color: white;
+    border: 1px solid #F2F2F2;
     border-width: 1.5px;
     outline: none;
     cursor: pointer;
@@ -298,7 +310,8 @@ font-weight: bold;
     border-radius: 2.5em;
     inline-size: 8em;
     color: black;
-    background-color: #F2F2F2 solid;
+    background-color: white;
+    border: 1px solid #F2F2F2;
     border-width: 1.5px;
     outline: none;
     cursor: pointer;
@@ -315,7 +328,8 @@ font-weight: bold;
     border-width: 1.5px;
     inline-size: 10em;
     color: black;
-    background-color: #F2F2F2 solid;
+    background-color: white;
+    border: 1px solid #F2F2F2;
     outline: none;
     cursor: pointer;
 }
@@ -330,7 +344,8 @@ font-weight: bold;
     border-radius: 2.5em;
     inline-size: 13em;
     color: black;
-    background-color: #F2F2F2 solid;
+    background-color: white;
+    border: 1px solid #F2F2F2;
     border-width: 1.5px;
     outline: none;
     cursor: pointer;
@@ -372,6 +387,7 @@ font-weight: bold;
 .information_bubble
 {
   margin-top: 12px;
+  margin-left: 5px;
   display: flex;
 }
 
@@ -395,6 +411,770 @@ font-weight: bold;
 {
   display: flex;
   margin-top: 4px;
+  margin-bottom: 30px;
   font-style: normal;
   font-family: "Raleway";
+}
+
+/*------- ACCOMODATION BOX -------*/
+
+/*------- TITLE/TEXT -------*/
+.accom_title
+{
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.first_title
+{
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+.price_title
+{
+    font-size: 15px;
+    font-weight: normal;
+    padding-left: 10px;
+    margin-bottom: -5px;
+}
+
+.href_title_cards
+{
+    text-decoration: none;
+    color: black;
+}
+
+.see-more a
+{
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+}
+
+/*------- ACCOM BOX -------*/
+
+.first_row_card_accom
+{
+    display: flex;
+    justify-content: center;
+}
+
+.second_row_card_accom
+{
+    display: flex;
+    justify-content: center;
+}
+
+.accom_cards 
+{
+  border: 1px solid rgba(255, 255, 255, 0);
+  background-color: white;
+  box-shadow: 0px 0px 13px #d1d1d1;
+  inline-size: 190px;
+  line-height: 0.5em;
+  padding: 3px;
+  border-radius: 1em;
+  margin-bottom: 20px;
+  margin-right: 25px;
+}
+
+.accom_cards:hover
+{
+    background-color: #DEEBFF;
+    transition: 0.5s;
+}
+
+.accom_part
+{
+  border: 1px solid white;
+  background-color: #F2F2F2;
+  border-radius: 1.5em;
+  padding-top: 15px;
+  padding-left: 40px;
+  padding-right: 20px;
+  padding-bottom: 15px;
+  height: 100%;
+  width: 100%
+}
+
+.accom_picture
+{
+    border-radius: 1em;
+    height: 100px;
+    width: 190px;
+    border-bottom-left-radius: 0em;
+    border-bottom-right-radius: 0em;
+}
+
+/*------- STARS RATED -------*/
+
+.accom_part ul
+{
+   margin-bottom: 5px;
+}
+
+.accom_part li
+{
+    list-style-type: none;
+    display: flex;
+}
+
+.note-article
+{
+    display: flex;
+    flex-direction: row;
+    margin-left: -30px;
+}
+
+.blue_star
+{
+    color: #0065FC;
+    font-size: 12px;
+}
+
+.grey_star
+{
+    color: #bebebed7;
+    font-size: 12px;
+}
+
+/*------- MOST POPULAR -------*/
+
+.section_with_aside
+{
+    display: flex;
+}
+
+/*------- TOP TITLE -------*/
+
+.mp_title
+{
+    margin-top: 3px;
+    margin-left: 15px;
+    padding-top: 5px;
+}
+
+/*------- ICON CHART -------*/
+.chart-icon
+{
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.align-icon-mp
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+/*------- MOST POPULAR CARDS/BOX -------*/
+
+.most_popular_part
+{
+    border: 1px solid white;
+    background-color: #F2F2F2;
+    border-radius: 1.5em;
+    padding: 10px;
+    margin-left: 20px;
+    height: 100%;
+    width: 100%;
+}
+
+.accom_popular_cards
+{
+    box-shadow: 0px 0px 13px #d1d1d1;
+    background-color: white;
+    border-radius: 1.5em;
+    margin: 20px;
+    margin-top: 0px;
+    margin-bottom: 23px;
+    display: flex;
+    width: 22em;
+}
+
+.accom_popular_cards:hover
+{
+    background-color: #DEEBFF;
+    transition: 0.5s; 
+}
+
+.href_title_cards
+{
+    text-decoration: none;
+    color: black;
+}
+
+/*------- MOST POPULAR IMG -------*/
+
+.accom_popular
+{
+    padding: 5px;
+    border-top-left-radius: 1.5em ;
+    border-bottom-left-radius: 1.5em;
+    height: 120px;
+}
+
+/*------- MOST POPULAR TEXT CARDS -------*/
+
+.popular_title
+{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0px;
+    padding-left: 10px;
+}
+
+.first_title_popular
+{
+    font-size: 15px;
+    word-wrap: break-word;
+    padding-left: 5px;
+    padding-top: 2px;
+    margin-right: 50px;
+}
+
+.price_title_popular
+{
+    font-size: 13px;
+    font-weight: normal;
+    padding: 5px;
+    margin-top: -10px;
+}
+
+/*------- STARS RATED -------*/
+
+.most_popular_part li
+{
+    list-style-type: none;
+}
+
+.popular_stars
+{
+    display: flex;
+    align-items: flex-start;
+}
+
+.note-article-popular
+{
+    margin-top: 0px;
+    display: flex;
+    padding-left: 5px;
+}
+
+/*------- ACTIVITY -------*/
+
+.activity
+{
+   margin-left: 0px;
+   margin-top: 50px;
+   margin-bottom: 50px;
+}
+
+/*------- ACTIVITY BOX -------*/
+
+.activity_part
+{
+    border: 1px solid white;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+.activity_cards1
+{
+    border-radius: 1.5em;
+    box-shadow: 0px 2px 12px #d1d1d1;
+    inline-size: 316px;
+    height: 390px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 5px;
+}
+
+.activity_cards2
+{
+    border-radius: 1.5em;
+    box-shadow: 0px 2px 12px #d1d1d1;
+    inline-size: 316px;
+    height: 220px;
+    margin-left: 25px;
+}
+
+.activity_cards3
+{
+    position: absolute;
+    border-radius: 1.5em;
+    top: 250px;
+    left: 280px;
+    box-shadow: 0px 2px 12px #d1d1d1;
+    inline-size: 270px;
+    height: 140px;
+    margin-left: 20px;
+}
+
+.activity_cards4
+{
+    border-radius: 1.5em;
+    box-shadow: 0px 2px 12px #d1d1d1;
+    inline-size: 315px;
+    height: 390px;
+    margin-left: 25px;
+}
+
+.activity_cards5
+{
+    border-radius: 1.5em;
+    box-shadow: 0px 2px 12px #d1d1d1;
+    inline-size: 316px;
+    height: 185px;
+    margin-left: 28px;
+}
+
+.activity_cards6
+{
+    position: absolute;
+    top: 192px;
+    left: 880px;
+    border-radius: 1.5em;
+    box-shadow: 0px 2px 12px #d1d1d1;
+    inline-size: 270px;
+    height: 190px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+/*------- ACTIVITY TITLE -------*/
+
+.activity_top_title
+{
+    font-weight: bold;
+    font-family: "Raleway";
+    font-size: 22px;
+}
+
+.activity_title
+{
+    font-size: 15px;
+    font-family: "Raleway";
+    padding-left: 20px;
+}
+
+/*------- ACTIVITY IMG -------*/
+
+.activity_picture
+{
+    border-top-left-radius: 1.2em;
+    border-top-right-radius: 1.2em;
+    inline-size: 270px;
+}
+/*------- ACTIVITY :HOVER -------*/
+
+.href_cards
+{
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    border-radius: 1.5em;
+    height: 500px;
+}
+
+.href_cards:hover
+{
+    background-color: #DEEBFF;
+    transition: 0.5s; 
+    border-radius: 1.5em;
+}
+
+.href_cards2
+{
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    border-radius: 1.5em;
+    display: flex;
+    flex-direction: column;
+    height: 220px;
+}
+
+.href_cards2:hover
+{
+    background-color: #DEEBFF;
+    transition: 0.5s; 
+    border-radius: 1.5em;
+}
+
+.href_cards3
+{
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    border-radius: 1.5em;
+    display: flex;
+    flex-direction: column;
+    height: 140px;
+}
+
+.href_cards3:hover
+{
+    background-color: #DEEBFF;
+    transition: 0.5s; 
+    border-radius: 1.5em;
+}
+
+.href_cards4
+{
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    border-radius: 1.5em;
+    display: flex;
+    flex-direction: column;
+    height: 390px;
+}
+
+.href_cards4:hover
+{
+    background-color: #DEEBFF;
+    transition: 0.5s; 
+    border-radius: 1.5em;
+}
+
+.href_cards5
+{
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    border-radius: 1.5em;
+    display: flex;
+    flex-direction: column;
+    height: 185px;
+}
+
+.href_cards5:hover
+{
+    background-color: #DEEBFF;
+    transition: 0.5s; 
+    border-radius: 1.5em;
+}
+
+.href_cards6
+{
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    border-radius: 1.5em;
+    display: flex;
+    flex-direction: column;
+    height: 190px;
+}
+
+.href_cards6:hover
+{
+    background-color: #DEEBFF;
+    transition: 0.5s; 
+    border-radius: 1.5em;
+}
+
+/*------- FOOTER -------*/
+
+.page_footer
+{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    width: 100%;
+    border: 1px solid #F2F2F2;
+    background-color: #F2F2F2;
+    margin: -9px;
+}
+
+.page_footer h2
+{
+    font-size: 18px;
+    font-style: bolder;
+    width: max-content;
+}
+
+.page_footer h3
+{
+    font-size: 15px;
+    width: max-content;
+}
+
+.footer_nav1
+{
+    margin-left: -220px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-left: 150px;
+}
+
+.footer_nav2
+{
+    margin: 100px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-left: 80px;
+}
+
+.footer_nav3
+{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-left: 110px;
+}
+
+.option_footer
+{
+    text-decoration: none;
+    color: black;
+    font-weight: normal;
+}
+
+@media screen and (max-device-width: 768px)
+{
+    .bloc_page
+    {
+       margin-left: 12px;
+    }
+
+    .topnav
+    {
+        width: 768px;
+        display: flex;
+        margin-right: -110px;
+        font-size: 15px;
+    }
+
+    .principal_title
+    {
+        font-size: 17px;
+    }
+
+    .secondary_title
+    {
+        font-size: 13px;
+    }
+
+    .search_box
+    {
+        block-size: 40px;
+        font-size: 15px;
+    }
+
+    .map-icon
+    {
+        margin-left: -2px;
+    }
+
+    .searchcountry
+    {
+        font-size: 12px;
+    }
+
+    .button
+    {
+        font-size: 12.5px;
+        width: 100px;
+        height: 40px;
+    }
+
+    .filters
+    {
+        
+    }
+
+    .filter_title
+    {
+        font-size: 17px;
+        margin-right: 10px;
+    }
+
+    .filter-item
+    {
+        margin-right: -10px;
+    }
+
+    .information_bubble
+    {
+        font-size: 14px;
+        margin-top: 0px;
+    }
+
+    .accom_part
+    {
+        margin-bottom: 10px;
+    }
+
+    .accom_title
+    {
+        font-size: 20px;
+    }
+
+    .see-more
+    {
+        font-size: 15px;
+    }
+
+    .section_with_aside
+    {
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+    }
+
+    .most_popular_part
+    {
+        width: 106%;
+        margin-left: 0px;
+        padding-bottom: 20px;
+    }
+
+    .mp_title
+    {
+        font-size: 22px;
+    }
+
+    .chart-icon
+    {
+        margin-right: 15px;
+    }
+
+    .accom_popular_cards
+    {
+        width: 91.5%;
+        margin-left: 28px;
+        margin-bottom: 15px;
+    }
+
+    .first_title_popular
+    {
+        font-size: 19px;
+    }
+
+    .price_title_popular
+    {
+        font-size: 17px;
+    }
+
+    .activity_top_title
+    {
+        margin-left: 15px;
+    }
+    .activity_part
+    {
+        display: flex;
+        margin: 5px;
+        height: 350px;
+    }
+
+    .activity_title
+    {
+        font-size: 13px;
+        text-align: start;
+    }
+
+    .activity_cards1
+    {
+        height: 144px;
+        width: 230px;
+        margin: 0px;
+        margin-left: -2px;
+    }
+
+    .activity_cards2
+    {
+        height: 145px;
+        width: 230px;
+        margin-left: 15px;
+    }
+
+    .href_cards2
+    {
+        height: 145px;
+    }
+
+    .activity_cards3
+    {
+        height: 140px;
+        width: 230px;
+        margin: 0px;
+        top: 160px;
+        left: 0;
+        margin-left: -2px;
+        
+    }
+
+    .activity_cards4
+    {
+        height: 145px;
+        width: 230px;
+        margin-left: 15px;
+    }
+
+    .href_cards4
+    {
+        height: 145px;
+    }
+
+    .activity_cards5
+    {
+        height: 141px;
+        width: 230px;
+        margin-left: -475px;
+        margin-top: 160px;
+    }
+
+    .href_cards5
+    {
+        height: 141px;
+    }
+
+    .activity_cards6
+    {
+        height: 142px;
+        width: 230px;
+        margin-left: -393px;
+        margin-top: -32px;
+    }
+
+    .href_cards6
+    {
+        height: 145px;
+    }
+    
+    .activity_picture
+    {
+        width: 230px;
+        height: 100px;
+    }
+
+    .page_footer
+    {
+        height: 200px;
+    }
+    .footer_nav1
+    {
+        margin-left: -185px;
+    }
+
+    .footer_nav2
+    {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .footer_nav3
+    {
+        margin-left: 0px;
+    }
+
+    .option_footer
+    {
+        font-size: 13px;
+    }
+
 }
