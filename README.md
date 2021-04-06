@@ -2,7 +2,7 @@
 Deuxième projet du parcours "Développeur Front-End" chez OpenClassroom.
 L'objectif : Intégrer la maquette d'un site de planification de vacance nommé "Reservia" (voir l'image ci-dessous).
 
-![maquette web reservia](./img/Desktop.png)
+![maquette web reservia](./img/desktopandiphone/Desktop.png)
 
 ## Éléments fournis par l'entreprise virtuelle.
 - La maquette pour les résolutions ordinateur et téléphone nous est donné.
