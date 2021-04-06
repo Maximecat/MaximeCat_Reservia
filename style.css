@@ -31,6 +31,8 @@ body
 .topnav
 {
    float: right;
+   display: flex;
+   flex-direction: row;
    margin-top: 12px;
    margin-right: -200px;
 }
@@ -59,8 +61,8 @@ body
 
 .subscribe_link
 {
-color: #0065FC;
-font-weight: bold;
+    color: #0065FC;
+    font-weight: bold;
 }
 
 .activity_link, .accomodation_link
@@ -141,6 +143,11 @@ font-weight: bold;
   cursor: pointer;
 }
 
+.loupe_search
+{
+    display: none;
+}
+
                              /*------- SECTION 2 -------*/
 
 
@@ -166,7 +173,28 @@ font-weight: bold;
 
 /*------- FILTER ITEMS -------*/
 
-.filter-item
+.filter-item-eco
+{
+    display: flex;
+    flex-direction: row;
+    margin-left: 15px;
+}
+
+.filter-item-family
+{
+    display: flex;
+    flex-direction: row;
+    margin-left: 15px;
+}
+
+.filter-item-romance
+{
+    display: flex;
+    flex-direction: row;
+    margin-left: 15px;
+}
+
+.filter-item-animal
 {
     display: flex;
     flex-direction: row;
@@ -294,8 +322,8 @@ font-weight: bold;
     inline-size: 11em;
     color: black;
     background-color: white;
-    border: 1px solid #F2F2F2;
-    border-width: 1.5px;
+    border: 2px solid #F2F2F2;
+    border-width: 2px;
     outline: none;
     cursor: pointer;
 }
@@ -311,8 +339,8 @@ font-weight: bold;
     inline-size: 8em;
     color: black;
     background-color: white;
-    border: 1px solid #F2F2F2;
-    border-width: 1.5px;
+    border: 2px solid #F2F2F2;
+    border-width: 2px;
     outline: none;
     cursor: pointer;
 }
@@ -325,11 +353,11 @@ font-weight: bold;
     padding-right: 10x;
     margin-left: -10px;
     border-radius: 2.5em;
-    border-width: 1.5px;
+    border-width: 2px;
     inline-size: 10em;
     color: black;
     background-color: white;
-    border: 1px solid #F2F2F2;
+    border: 2px solid #F2F2F2;
     outline: none;
     cursor: pointer;
 }
@@ -345,8 +373,8 @@ font-weight: bold;
     inline-size: 13em;
     color: black;
     background-color: white;
-    border: 1px solid #F2F2F2;
-    border-width: 1.5px;
+    border: 2px solid #F2F2F2;
+    border-width: 2px;
     outline: none;
     cursor: pointer;
 }
@@ -982,9 +1010,9 @@ font-weight: bold;
         height: 40px;
     }
 
-    .filters
+    .loupe_search
     {
-        
+        display: none;
     }
 
     .filter_title
@@ -1178,3 +1206,193 @@ font-weight: bold;
     }
 
 }
+
+@media screen and (max-device-width: 480px) 
+{
+    
+    .logo
+    {
+        margin-left: 10px;
+    }
+
+    .topnav
+    {
+        position: relative;
+        left: -310px;
+        top: 70px; 
+    }
+
+    .accomodation_link
+    {
+        font-size: 15px;
+        font-weight: 500;
+        position: relative;
+        left: -10px;
+    }
+
+    .activity_link
+    {
+        font-size: 15px;
+        font-weight: 500;
+        position: relative;
+        left: 10px;
+    }
+
+    .subscribe_link
+    {
+        float: right;
+        position: relative;
+        top: -110px;
+        right: 260px;
+        font-size: 15px;
+    }
+
+    .phone-size
+    {
+        border-bottom: 2px solid #F2F2F2;
+        width: 480px;
+        height: 48px;
+        position: relative;
+        margin-bottom: 50px;
+        margin-top: 0px;
+    }
+
+    .topnav a:hover
+    {
+        border-top: none;
+    }
+    .accomodation_link:hover
+    {
+        color: #0065FC;
+        border-bottom: 2px solid #0065FC;
+        font-weight: bold;
+        transition: 0.2s;
+    }
+
+    .activity_link:hover
+    {
+        color: #0065FC;
+        border-bottom: 2px solid #0065FC;
+        font-weight: bold;
+        transition: 0.2s;
+    }
+
+    .subscribe_link:hover
+    {
+        color: #0065FC;
+        font-weight: bold;
+        border-bottom: 2px solid #0065FC;
+        transition: 0.2s;
+    }
+
+    .title_top
+    {
+        margin-top: 70px;
+        margin-left: 10px;
+    }
+
+    .principal_title
+    {
+        width: 310px;
+        height: 30px;
+        line-height: 1.1em;
+        font-size: 21.5px;
+        margin-bottom: 30px;
+    }
+
+    .secondary_title
+    {
+        font-weight: 450;
+        margin-bottom: 30px;
+    }
+
+    .search_box
+    {
+        margin-left: 10px;
+        width: 278px;
+    }
+
+    .map-icon
+    {
+        width: 8px;
+        padding-left: 17px;
+        border-bottom-left-radius: 0.7em;
+        border-top-left-radius: 0.7em;
+    }
+
+    .button
+    {
+        width: 40px;
+        display: none;
+    }
+
+    .loupe_search
+    {
+        display: initial;
+        background-color: #0065FC;
+        width: 42px;
+        height: 41px;
+        border: 0px solid #0065FC;
+        border-radius: 1em;
+        color: white;
+        margin-left: 45px;
+    }
+
+    .filters
+    {
+        width: 300px;
+        height: 200px;
+        display: block;
+
+    }
+
+    .filter_title
+    {
+        margin-top: 15px;
+    }
+
+    .filter-item-eco
+    {
+        margin-left: 5px;
+        margin-bottom: 25px;
+    }
+
+    .filter-item-family
+    {
+        margin-left: 5px;
+        margin-bottom: 25px;
+        position: absolute;
+        top: 385px;
+        right: 160px;
+        left: 190px;
+    }
+
+    .filter-item-romance
+    {
+        margin-left: 5px;
+        margin-bottom: 25px;    
+    }
+
+    .filter-item-animal
+    {
+        margin-left: 5px;
+        margin-bottom: 25px;
+    }
+
+    .information_bubble
+    {
+        width: 310px;
+        height: 20px;
+        margin-left: 10px;
+        margin-bottom: 50px;
+        font-size: 13.5px;
+        font-weight: 500;
+    }
+
+    .info-icon
+
+    {
+        padding: 2px;
+        padding-top: 4px;
+    }
+}    
