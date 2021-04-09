@@ -1256,54 +1256,87 @@ body
 
 }
 
+
 @media screen and (max-device-width: 480px) 
 {
-    
+
+    body
+    {
+        width: 480px;
+        min-width: 300px;
+        margin: auto;
+    }
+
+    .bloc_page
+    {
+        width: 100%;
+        margin: auto;
+        max-width: 480px;
+        min-width: 300px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .logoandtopnav
+    {
+        width: 430px;
+        margin: auto;
+    }
+
     .logo
     {
-        margin-left: 10px;
+        margin-top: 0px;
+        margin-left: 40px;
     }
 
     .topnav
     {
         position: relative;
-        left: -310px;
-        top: 70px; 
+        margin-right: 0px;
+        padding-right: 7px;
+        width: 480px;
+        left: -144px;
+        top: 50px; 
+        border-bottom: 2px solid #F2F2F2;
+    }
+
+    .topnav ul
+    {
+        width: 480px;
+        float: right;
+        position: relative;
+        top: 34px;
+        padding-left: 40px;
+        margin: 0px;
     }
 
     .accomodation_link
     {
-        font-size: 15px;
+        width: 400px;
+        font-size: 18px;
         font-weight: 500;
         position: relative;
-        left: -10px;
+        left: 40px;
+        color: #0065FC;
+        border-bottom: 2px solid #0065FC;
     }
 
     .activity_link
     {
-        font-size: 15px;
+        font-size: 18px;
         font-weight: 500;
         position: relative;
-        left: 10px;
+        right: 0px;
+        left: 70px;
     }
 
     .subscribe_link
     {
         float: right;
         position: relative;
-        top: -110px;
-        right: 260px;
-        font-size: 15px;
-    }
-
-    .phone-size
-    {
-        border-bottom: 2px solid #F2F2F2;
-        width: 480px;
-        height: 48px;
-        position: relative;
-        margin-bottom: 50px;
-        margin-top: 0px;
+        top: -100px;
+        right: 40px;
+        font-size: 18px;
     }
 
     .topnav a:hover
@@ -1336,42 +1369,52 @@ body
 
     .title_top
     {
-        margin-top: 70px;
-        margin-left: 10px;
+        margin-top: 40px;
+        margin-left: 40px;
+        margin-right: 0px;
     }
 
     .principal_title
     {
-        width: 310px;
+        width: 400px;
         height: 30px;
         line-height: 1.1em;
-        font-size: 21.5px;
-        margin-bottom: 30px;
+        font-size: 26px;
+        margin-bottom: 50px;
     }
 
     .secondary_title
     {
-        font-weight: 450;
+        font-size: 18px;
         margin-bottom: 30px;
     }
 
     .search_box
     {
-        margin-left: 10px;
-        width: 278px;
+        margin-left: 40px;
+        block-size: 50px;
+        inline-size: 321px;
     }
 
     .map-icon
     {
-        width: 8px;
-        padding-left: 17px;
+        height: 24px;
+        padding-left: -17px;
+        padding-top: 15px;
         border-bottom-left-radius: 0.7em;
         border-top-left-radius: 0.7em;
     }
 
+    .searchcountry
+    {
+        font-weight: 800;
+        margin: 0px;
+        margin-left: 20px;
+        margin-right: 40px;
+    }
+
     .button
     {
-        width: 40px;
         display: none;
     }
 
@@ -1379,12 +1422,12 @@ body
     {
         display: initial;
         background-color: #0065FC;
-        width: 42px;
-        height: 41px;
+        width: 52px;
+        height: 51px;
         border: 0px solid #0065FC;
         border-radius: 1em;
         color: white;
-        margin-left: 45px;
+        margin-right: auto;
     }
 
     .filters
@@ -1392,47 +1435,76 @@ body
         width: 300px;
         height: 200px;
         display: block;
-
+        margin-left: 40px;
+        margin-bottom: 15px;
+        margin-right: 0px;
+        padding-right: 0px;
     }
 
     .filter_title
     {
-        margin-top: 15px;
+        margin-top: 25px;
+        margin-left: 5px;
+        font-size: 18px;
     }
 
     .filter-item-eco
     {
         margin-left: 5px;
-        margin-bottom: 25px;
+        margin-bottom: 30px;
+    }
+
+    .input-filter-eco
+    {
+        inline-size: 12em;
+        font-size: 14px;
     }
 
     .filter-item-family
     {
-        margin-left: 5px;
+        margin-left: 30px;
         margin-bottom: 25px;
         position: absolute;
-        top: 385px;
+        top: 431px;
         right: 160px;
         left: 190px;
+    }
+
+    .input-filter-family
+    {
+        inline-size: 9em;
+        font-size: 14px;
     }
 
     .filter-item-romance
     {
         margin-left: 5px;
-        margin-bottom: 25px;    
+        margin-bottom: 30px;    
+    }
+
+    .input-filter-romance
+    {
+        inline-size: 11em;
+        font-size: 14px;
     }
 
     .filter-item-animal
     {
         margin-left: 5px;
-        margin-bottom: 25px;
+        margin-bottom: 30px;
+    }
+
+    .input-filter-animal
+    {
+        inline-size: 14em;
+        font-size: 14px;
     }
 
     .information_bubble
     {
         width: 310px;
         height: 20px;
-        margin-left: 10px;
+        margin-left: 40px;
         margin-bottom: 50px;
         font-size: 13.5px;
         font-weight: 500;
@@ -1443,5 +1515,134 @@ body
     {
         padding: 2px;
         padding-top: 4px;
+        margin-left: 0px;
+        inline-size: 2.2em;
+    }
+
+    .info_text
+    {
+        width: 400px;
+        font-size: 16px;
+        font-weight: normal;
+    }
+
+    .section_with_aside
+    {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    .most_popular_part
+    {
+        margin: auto;
+        width: 480px;
+        border-radius: 0em;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .accom_popular_cards
+    {
+        width: 420px;
+    }
+
+    .chart-icon 
+    {
+        margin-right: 0px;
+    }
+
+    .mp_title
+    {
+        font-size: 24px;
+    }
+
+    .accom_popular
+    {
+        margin-right: 10px;
+        height: 140px;
+    }
+
+    .first_title_popular 
+    {
+        font-size: 19px;
+        width: 200px;
+    }
+
+    .accom_part
+    {
+        width: 435px;
+        background-color: white;
+        margin-left: 0px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .accom_title
+    {
+        font-size: 25px;
+        margin-left: 10px;
+    }
+
+    .accom_cards
+    {
+        margin-left: 10px;
+        inline-size: 405px;
+    }
+
+    .accom_picture
+    {
+        height: 150px;
+        width: 405px;
+        image-rendering: optimizeQuality;
+    }
+    .first_row_card_accom
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .second_row_card_accom
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .see-more
+    {
+        margin-left: 15px;
+    }
+    .activity
+    {
+        margin-left: 20px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 0px;
+    }
+
+    .activity_part
+    {
+        width: 450px;
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .activity_cards5
+    {
+       margin-left: 0px;
+    }
+
+    .activity_cards6
+    {
+        position: relative;
+        top: 0;
+        left: 0;
+        margin-left: 0px;
+    }
+
+    .page_footer
+    {
+        width: 200px;
+        min-width: 478px;
     }
 }    
