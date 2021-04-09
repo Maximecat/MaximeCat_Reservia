@@ -11,8 +11,10 @@ body
 
 .bloc_page
 {  
-    width: 950px;
+    max-width: 1160px;
+    min-width: 950px;
     margin: auto;
+    
 }
 
                               /*------- SECTION 1 -------*/
@@ -27,14 +29,20 @@ body
 }
 
 /*------- NAV MAIN -------*/
+.logoandtopnav
+{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
 
 .topnav
 {
-   float: right;
    display: flex;
-   flex-direction: row;
    margin-top: 12px;
-   margin-right: -200px;
+   width: 100%;
+   margin-left: 580px;
+   margin-right: 20px;
 }
 
 .topnav ul
@@ -504,7 +512,7 @@ body
   padding: 3px;
   border-radius: 1em;
   margin-bottom: 20px;
-  margin-right: 25px;
+  margin-right: 20px;
 }
 
 .accom_cards:hover
@@ -571,6 +579,8 @@ body
 
 .section_with_aside
 {
+    max-width: 1160px;
+    min-width: 950px;
     display: flex;
 }
 
@@ -697,7 +707,7 @@ body
 
 .activity
 {
-   margin-left: 0px;
+   margin-left: 5px;
    margin-top: 50px;
    margin-bottom: 50px;
 }
@@ -708,27 +718,22 @@ body
 {
     border: 1px solid white;
     display: flex;
-    flex-direction: row;
     position: relative;
 }
 .activity_cards1
 {
     border-radius: 1.5em;
     box-shadow: 0px 2px 12px #d1d1d1;
-    inline-size: 316px;
     height: 390px;
-    display: flex;
-    flex-direction: column;
-    margin-right: 5px;
+    margin-right: 0px;
 }
 
 .activity_cards2
 {
     border-radius: 1.5em;
     box-shadow: 0px 2px 12px #d1d1d1;
-    inline-size: 316px;
     height: 220px;
-    margin-left: 25px;
+    margin-left: 20px;
 }
 
 .activity_cards3
@@ -736,9 +741,8 @@ body
     position: absolute;
     border-radius: 1.5em;
     top: 250px;
-    left: 280px;
+    left: 275px;
     box-shadow: 0px 2px 12px #d1d1d1;
-    inline-size: 270px;
     height: 140px;
     margin-left: 20px;
 }
@@ -747,30 +751,27 @@ body
 {
     border-radius: 1.5em;
     box-shadow: 0px 2px 12px #d1d1d1;
-    inline-size: 315px;
     height: 390px;
-    margin-left: 25px;
+    margin-left: 20px;
 }
 
 .activity_cards5
 {
     border-radius: 1.5em;
     box-shadow: 0px 2px 12px #d1d1d1;
-    inline-size: 316px;
     height: 185px;
-    margin-left: 28px;
+    margin-left: 15px;
 }
 
 .activity_cards6
 {
     position: absolute;
     top: 192px;
-    left: 880px;
+    left: 870px;
     border-radius: 1.5em;
     box-shadow: 0px 2px 12px #d1d1d1;
-    inline-size: 270px;
     height: 190px;
-    margin-left: 15px;
+    margin-left: 0px;
     margin-top: 10px;
 }
 
@@ -796,7 +797,7 @@ body
 {
     border-top-left-radius: 1.2em;
     border-top-right-radius: 1.2em;
-    inline-size: 270px;
+    inline-size: 272px;
 }
 /*------- ACTIVITY :HOVER -------*/
 
@@ -806,7 +807,9 @@ body
     text-decoration: none;
     color: black;
     border-radius: 1.5em;
-    height: 500px;
+    display: flex;
+    flex-direction: column;
+    height: 390px;
 }
 
 .href_cards:hover
@@ -910,49 +913,42 @@ body
 
 .page_footer
 {
+    min-width: 1160px;
+    margin: auto;
     display: flex;
-    position: absolute;
     justify-content: center;
     width: 100%;
     border: 1px solid #F2F2F2;
     background-color: #F2F2F2;
-    margin: -9px;
 }
 
 .page_footer h2
 {
     font-size: 18px;
     font-style: bolder;
-    width: max-content;
+    margin-top: 40px;
 }
 
 .page_footer h3
 {
     font-size: 15px;
-    width: max-content;
 }
 
 .footer_nav1
 {
-    margin-left: -220px;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    padding-left: 150px;
+    margin-left: -250px;
+   margin-right: 150px;
+   margin-bottom: 30px;
 }
 
 .footer_nav2
 {
-    margin: 100px;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    padding-left: 80px;
+    margin-right: 150px
 }
 
 .footer_nav3
 {
-    margin-top: 25px;
-    margin-bottom: 25px;
-    padding-left: 110px;
+    margin-left: 80px;
 }
 
 .option_footer
@@ -964,33 +960,60 @@ body
 
 @media screen and (max-device-width: 768px)
 {
+    
+    body
+    {
+        width: 100%;
+        margin: auto;
+    }
+
     .bloc_page
     {
-       margin-left: 12px;
+        max-width: 768px;
+        min-width: 480px;
+        width: 97%;
+        margin-left: 20px;
+    }
+    .logoandtopnav
+    {
+        width: 740px;
+        margin: auto;
+        display: inline-flex;
     }
 
     .topnav
     {
-        width: 768px;
+        width: auto;
+        margin-left: 0px;
+        margin-right: 5px;
+        margin-top: 20px;
         display: flex;
-        margin-right: -110px;
-        font-size: 15px;
     }
 
+    .title_top
+    {
+        line-height: 0.6;
+        margin-top: 15px;
+        margin-bottom: 30px;
+    }
     .principal_title
     {
-        font-size: 17px;
+        width: 600px;
+        font-size: 20px;
+        word-wrap: normal;
     }
 
     .secondary_title
     {
-        font-size: 13px;
+        font-size: 15px;
+        font-weight: 500;
     }
 
     .search_box
     {
         block-size: 40px;
         font-size: 15px;
+        margin-bottom: 15px;
     }
 
     .map-icon
@@ -998,14 +1021,8 @@ body
         margin-left: -2px;
     }
 
-    .searchcountry
-    {
-        font-size: 12px;
-    }
-
     .button
     {
-        font-size: 12.5px;
         width: 100px;
         height: 40px;
     }
@@ -1013,6 +1030,11 @@ body
     .loupe_search
     {
         display: none;
+    }
+
+    .filters
+    {
+        margin-left: 0px;
     }
 
     .filter_title
@@ -1030,16 +1052,30 @@ body
     {
         font-size: 14px;
         margin-top: 0px;
+        font-weight: 500;
     }
 
     .accom_part
     {
         margin-bottom: 10px;
+        margin-left: 2px;
+        width: 665px;
+        max-width: 768px;
     }
 
     .accom_title
     {
         font-size: 20px;
+    }
+
+    .first_row_card_accom
+    {
+        display: flex;
+    }
+
+    .second_row_card_accom
+    {
+        display: flex;
     }
 
     .see-more
@@ -1049,15 +1085,18 @@ body
 
     .section_with_aside
     {
+        max-width: 768px;
+        min-width: 480px;
         display: flex;
         flex-direction: column;
-        width: 70%;
+        width: 400px;
     }
 
     .most_popular_part
     {
-        width: 106%;
-        margin-left: 0px;
+        width: 705px;
+        max-width: 768px;
+        margin-left: 2px;
         padding-bottom: 20px;
     }
 
@@ -1092,6 +1131,13 @@ body
     {
         margin-left: 15px;
     }
+
+    .activity
+    {
+        margin-bottom: 30px;
+        margin-left: 0px;
+    }
+
     .activity_part
     {
         display: flex;
@@ -1165,7 +1211,7 @@ body
     {
         height: 142px;
         width: 230px;
-        margin-left: -393px;
+        margin-left: -383px;
         margin-top: -32px;
     }
 
@@ -1182,16 +1228,19 @@ body
 
     .page_footer
     {
+        min-width: 768px;
         height: 200px;
+        justify-content: space-around;
     }
     .footer_nav1
     {
-        margin-left: -185px;
+        margin-left: -10px;
+        margin-right: 0px;
     }
 
     .footer_nav2
     {
-        margin-left: 0px;
+        margin-left: -30px;
         margin-right: 0px;
     }
 
