@@ -1306,7 +1306,7 @@ body
         float: right;
         position: relative;
         top: 34px;
-        padding-left: 40px;
+        padding-left: 0px;
         margin: 0px;
     }
 
@@ -1316,7 +1316,7 @@ body
         font-size: 18px;
         font-weight: 500;
         position: relative;
-        left: 40px;
+        left: 65px;
         color: #0065FC;
         border-bottom: 2px solid #0065FC;
     }
@@ -1326,15 +1326,14 @@ body
         font-size: 18px;
         font-weight: 500;
         position: relative;
-        right: 0px;
-        left: 70px;
+        left: 135px;
     }
 
     .subscribe_link
     {
         float: right;
         position: relative;
-        top: -100px;
+        top: -110px;
         right: 40px;
         font-size: 18px;
     }
@@ -1393,7 +1392,6 @@ body
     {
         margin-left: 40px;
         block-size: 50px;
-        inline-size: 321px;
     }
 
     .map-icon
@@ -1401,6 +1399,7 @@ body
         height: 24px;
         padding-left: -17px;
         padding-top: 15px;
+        margin-right: 10px;
         border-bottom-left-radius: 0.7em;
         border-top-left-radius: 0.7em;
     }
@@ -1408,8 +1407,7 @@ body
     .searchcountry
     {
         font-weight: 800;
-        margin: 0px;
-        margin-left: 20px;
+        margin-left: 0px;
         margin-right: 40px;
     }
 
@@ -1613,23 +1611,95 @@ body
     }
     .activity
     {
-        margin-left: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
         display: flex;
         flex-direction: column;
         margin-top: 0px;
     }
 
+    .activity_top_title
+    {
+        font-size: 25px;
+    }
+
     .activity_part
     {
-        width: 450px;
-        height: 800px;
+        height: 1400px;
         display: flex;
         flex-direction: column;
     }
 
+    .activity_picture
+    {
+       width: auto;
+       height: 170px;
+    }
+
+    .activity_cards1
+    {
+       margin-left: 10px;
+       inline-size: 400px;
+       height: 215px;
+       margin-bottom: 20px;
+    }
+
+    .href_cards
+    {
+        height: 215px;
+    }
+
+    .activity_cards2
+    {
+       margin-left: 10px;
+       inline-size: 400px;
+       height: 215px;
+    }
+
+    .href_cards2
+    {
+        height: 215px;
+    }
+
+    .activity_cards3
+    {
+        position: relative;
+        top: 20px;
+        margin-left: 10px;
+        margin-bottom: 40px;
+        inline-size: 400px;
+        height: 215px;
+    }
+
+    .href_cards3
+    {
+        height: 215px;
+    }
+
+    .activity_cards4
+    {
+        height: 215px;
+        width: 400px;
+        margin-left: 10px;
+    }
+
+    .href_cards4
+    {
+        height: 215px;
+    }
+
     .activity_cards5
     {
-       margin-left: 0px;
+       margin-left: 10px;
+       margin-top: 20px;
+       margin-bottom: 20px;
+       height: 215px;
+       width: 400px;
+    }
+
+    .href_cards5
+    {
+        height: 215px;
     }
 
     .activity_cards6
@@ -1637,12 +1707,61 @@ body
         position: relative;
         top: 0;
         left: 0;
-        margin-left: 0px;
+        margin-left: 10px;
+        height: 215px;
+        width: 400px;
+        margin-top: 0px;
+    }
+
+    .href_cards6
+    {
+        height: 215px;
     }
 
     .page_footer
     {
         width: 200px;
+        height: 530px;
         min-width: 478px;
+        flex-direction: column;
+    }
+
+    .footer_nav1
+    {
+        margin-bottom: 0px;
+        margin-left: 50px;
+    }
+
+    .footer_nav1 h2
+    {
+        font-size: 20px;
+    }
+
+    .option_footer
+    {
+        font-size: 16px;
+        font-weight: 450;
+    }
+
+    .footer_nav2
+    {
+        margin-bottom: 0px;
+        margin-left: 50px;
+    }
+
+    .footer_nav2 h2
+    {
+        font-size: 20px;
+    }
+
+    .footer_nav3
+    {
+        margin-bottom: 40px;
+        margin-left: 50px;
+    }
+
+    .footer_nav3 h2
+    {
+        font-size: 20px;
     }
 }    
