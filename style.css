@@ -1037,6 +1037,54 @@ body
         margin-left: 0px;
     }
 
+    .filter-item-eco
+    {
+        margin-left: 20px;
+    }
+
+    .input-filter-eco:hover 
+    {
+        background-color: #DEEBFF;
+        inline-size: 11.5em;
+        transition: 0.5s;
+    }
+
+    .filter-item-family
+    {
+        margin-left: 5px;
+    }
+
+    .input-filter-family:hover 
+    {
+        background-color: #DEEBFF;
+        inline-size: 8.5em;
+        transition: 0.5s;
+    }
+    
+    .filter-item-romance
+    {
+        margin-left: 5px;
+    }
+
+    .input-filter-romance:hover 
+    {
+        background-color: #DEEBFF;
+        inline-size: 10.5em;
+        transition: 0.5s;
+    }
+
+    .filter-item-animal
+    {
+        margin-left: 5px;
+    }
+
+    .input-filter-animal:hover 
+    {
+        background-color: #DEEBFF;
+        inline-size: 13.5em;
+        transition: 0.5s;
+    }
+
     .filter_title
     {
         font-size: 17px;
@@ -1045,7 +1093,7 @@ body
 
     .filter-item
     {
-        margin-right: -10px;
+        margin-right: 10px;
     }
 
     .information_bubble
@@ -1157,6 +1205,11 @@ body
         width: 230px;
         margin: 0px;
         margin-left: -2px;
+    }
+
+    .href_cards
+    {
+        height: 144px;
     }
 
     .activity_cards2
@@ -1292,8 +1345,6 @@ body
     .topnav
     {
         position: relative;
-        margin-right: 0px;
-        padding-right: 7px;
         width: 480px;
         left: -144px;
         top: 50px; 
@@ -1303,11 +1354,9 @@ body
     .topnav ul
     {
         width: 480px;
-        float: right;
-        position: relative;
-        top: 34px;
         padding-left: 0px;
-        margin: 0px;
+        margin-bottom: -34px;
+        margin-top: 35px;
     }
 
     .accomodation_link
@@ -1458,9 +1507,16 @@ body
         font-size: 14px;
     }
 
+    .input-filter-eco:hover 
+    {
+        background-color: #DEEBFF;
+        inline-size: 12.5em;
+        transition: 0.5s;
+    }
+
     .filter-item-family
     {
-        margin-left: 30px;
+        margin-left: 40px;
         margin-bottom: 25px;
         position: absolute;
         top: 431px;
@@ -1472,6 +1528,18 @@ body
     {
         inline-size: 9em;
         font-size: 14px;
+    }
+
+    .input-filter-family:hover 
+    {
+        background-color: #DEEBFF;
+        inline-size: 9.5em;
+        transition: 0.5s;
+    }
+
+    .filter-icon-romance
+    {
+        padding-top: 1px;
     }
 
     .filter-item-romance
@@ -1486,6 +1554,13 @@ body
         font-size: 14px;
     }
 
+    .input-filter-romance:hover 
+    {
+        background-color: #DEEBFF;
+        inline-size: 11.8em;
+        transition: 0.5s;
+    }
+
     .filter-item-animal
     {
         margin-left: 5px;
@@ -1496,6 +1571,13 @@ body
     {
         inline-size: 14em;
         font-size: 14px;
+    }
+
+    .input-filter-animal:hover 
+    {
+        background-color: #DEEBFF;
+        inline-size: 15em;
+        transition: 0.5s;
     }
 
     .information_bubble
