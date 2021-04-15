@@ -1131,6 +1131,11 @@ body
         font-size: 15px;
     }
 
+    .accom_picture
+    {
+        object-fit: cover;
+    }
+
     .section_with_aside
     {
         max-width: 768px;
@@ -1138,6 +1143,11 @@ body
         display: flex;
         flex-direction: column;
         width: 400px;
+    }
+
+    .accom_popular
+    {
+        object-fit: cover;
     }
 
     .most_popular_part
@@ -1277,6 +1287,7 @@ body
     {
         width: 230px;
         height: 100px;
+        object-fit: cover;
     }
 
     .page_footer
@@ -1640,6 +1651,7 @@ body
     {
         margin-right: 10px;
         height: 140px;
+        object-fit: cover;
     }
 
     .first_title_popular 
@@ -1670,11 +1682,11 @@ body
     }
 
     .accom_picture
-    {
+    {   width: 405px;
         height: 150px;
-        width: 405px;
-        image-rendering: optimizeQuality;
+        object-fit: cover;
     }
+
     .first_row_card_accom
     {
         display: flex;
@@ -1716,6 +1728,7 @@ body
     {
        width: auto;
        height: 170px;
+       object-fit: cover;
     }
 
     .activity_cards1
