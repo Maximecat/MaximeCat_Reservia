@@ -51,6 +51,11 @@ body
   align-items: center;
 }
 
+.topnav li
+{
+    list-style-type: none;
+}
+
 .topnav a
 {
     text-decoration: none;
