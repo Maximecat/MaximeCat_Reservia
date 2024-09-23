@@ -4,7 +4,7 @@
 Transformez une maquette en site web avec HTML & CSS 
 (pour un site de planification de vacance nommé "Reservia")
 
-![maquette web reservia](./img/modelandutilities/Desktop.png)
+![maquette web reservia](./img/models/Desktop.png)
 
 ## Résumé de la mission
 La mission principale sera d'intégrer l'interface responsive du site. 
