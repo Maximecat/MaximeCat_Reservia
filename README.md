@@ -1,11 +1,29 @@
 # Reservia
-Deuxième projet du parcours "Développeur Front-End" chez OpenClassroom.
-L'objectif : Intégrer la maquette d'un site de planification de vacance nommé "Reservia" (voir l'image ci-dessous).
+
+## Objectif(s)
+Transformez une maquette en site web avec HTML & CSS (pour un site de planification de vacance nommé "Reservia")
 
 ![maquette web reservia](./img/modelandutilities/Desktop.png)
 
-## Éléments fournis par l'entreprise virtuelle.
-- La maquette pour les résolutions ordinateur et téléphone nous est donné.
+## Résumé de la mission
+La mission principale sera d'intégrer l'interface responsive du site. 
+Avec à disposition : 
+- Les maquettes Figma pour mobile, tablette et desktop 
+- Les images 
+- Une note de synthèse sur les spécificités du projet.
+
+## Languages utilisés
+- HTML
+- CSS
+
+## Compétences évaluées
+- Intégrer du contenu conformément à une maquette
+- Implémenter une interface responsive, assurant que la page d'accueil fonctionne bien sur tous les appareils et tailles d'écran
+
+## Informations supplémentaires
+
+### Éléments fournis par l'entreprise virtuelle.
+- Les maquette pour les résolutions ordinateur et téléphone nous sont donné.
 - Toutes les images présentes sur le site sont aussi livrés en format sm, md, l & xl.
 - Les icones proviennent de [Font Awesome](https://fontawesome.com/)
 - Les couleurs sont : bleu #0065FC - bleu clair #DEEBFF - gris #F2F2F2
@@ -23,6 +41,3 @@ L'objectif : Intégrer la maquette d'un site de planification de vacance nommé 
 - Le site devra être compatible avec les dernières versions de Chrome et Firefox.
 - Le HTML et le CSS doivent être séparés et le dossier doit être organisé
 - Le code doit être versionné avec git et doit avoir un repo distant sur Github ou Gitlab
-
-## Notes sur la réalisation du projet
-- L'integration est faite sur l'éditeur Visual Studio Codeeee
