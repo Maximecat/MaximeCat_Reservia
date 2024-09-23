@@ -25,4 +25,4 @@ L'objectif : Intégrer la maquette d'un site de planification de vacance nommé 
 - Le code doit être versionné avec git et doit avoir un repo distant sur Github ou Gitlab
 
 ## Notes sur la réalisation du projet
-- L'integration est faite sur l'éditeur Visual Studio Code
+- L'integration est faite sur l'éditeur Visual Studio Codeee
