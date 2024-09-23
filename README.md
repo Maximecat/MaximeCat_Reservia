@@ -8,7 +8,7 @@ Transformez une maquette en site web avec HTML & CSS, pour un site de planificat
 ## Résumé de la mission
 La mission principale sera d'intégrer l'interface responsive du site. 
 Avec à disposition : 
-- Les maquettes Figma pour mobile, tablette et desktop 
+- Les maquettes Figma pour mobile et desktop (sans maquette dimensions tablette)
 - Les images 
 - Une note de synthèse sur les spécificités du projet.
 
