@@ -11,7 +11,7 @@ La mission principale sera d'intégrer l'interface responsive du site.
 Avec à disposition : 
 - Les maquettes Figma pour mobile, tablette et desktop 
 - Les images 
-- Une note de synthèse sur les spécificités du projet..
+- Une note de synthèse sur les spécificités du projet.
 
 ## Languages utilisés
 - HTML
