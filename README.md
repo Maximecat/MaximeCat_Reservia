@@ -1,7 +1,8 @@
 # Reservia
 
 ## Objectif(s)
-Transformez une maquette en site web avec HTML & CSS (pour un site de planification de vacance nommé "Reservia")
+Transformez une maquette en site web avec HTML & CSS 
+(pour un site de planification de vacance nommé "Reservia")
 
 ![maquette web reservia](./img/modelandutilities/Desktop.png)
 
