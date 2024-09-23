@@ -22,12 +22,12 @@ Avec à disposition :
 
 ## Informations supplémentaires
 
-### Éléments fournis par l'entreprise.
+### Éléments fournis par l'entreprise
 - Les maquette pour les résolutions ordinateur et téléphone nous sont donné.
 - Toutes les images présentes sur le site sont aussi livrés en format sm, md, l & xl.
 - Les icones proviennent de [Font Awesome](https://fontawesome.com/)
 
-### Identité graphique.
+### Identité graphique
 - Les couleurs sont : bleu #0065FC - bleu clair #DEEBFF - gris #F2F2F2
 - La police est ["Raleway"](https://fonts.google.com/specimen/Raleway)
 
