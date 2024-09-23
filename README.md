@@ -1,4 +1,4 @@
-# ![Logo Ohmfood](img/logo/Reservia@3x.png)
+# ![Logo Reservia](img/logo/Reservia@3x.png)
 
 ## Objectif(s)
 Transformez une maquette en site web avec HTML & CSS 
